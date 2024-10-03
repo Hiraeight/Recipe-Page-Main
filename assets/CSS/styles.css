@@ -107,14 +107,14 @@ article {
 }
 
 .section-ingredients, .section-instructions {
-    border-bottom: 1px solid var(--Stone-600);
+    border-bottom: 1px solid var(--Stone-150);
 }
 
 .nutrition-info {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--Stone-150);
 }
 
 .nutrition-info:last-child {

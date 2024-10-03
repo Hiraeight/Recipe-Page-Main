@@ -106,27 +106,45 @@ article {
     border-radius: 1rem;
 }
 
+.section-preparation ul li {
+    color: var(--Rose-800);
+}
+
+ul li {
+    color: var(--Brown-800);
+}
+
 .section-ingredients, .section-instructions {
     border-bottom: 1px solid var(--Stone-150);
 }
 
+ol li {
+    color: var(--Brown-800);
+    font-weight: var(--fw-600);
+}
+
 .nutrition-info {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--Stone-150);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--Stone-150);
 }
 
 .nutrition-info:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .nutrition-info p {
-  margin: 0;
+    margin: 0;
+}
+
+.nutrition-measure {
+    font-weight: var(--fw-700);
+    color: var(--Brown-800);
 }
 
 .row {
-  margin: 2rem 1rem;
+    margin: 2rem 1rem;
 }
 
 @media (max-width: 425px) {
